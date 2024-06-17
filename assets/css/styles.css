@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.section_inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_inicio{
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #9a8c98;
+    border-radius: 15px;
+}
+
+.title_inicio{
+    margin: 50px 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_link{
+    display: flex;
+    flex-direction: column;
+}
+
+.list_link a{
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list_link a:hover{
+    text-decoration: underline;
+    color: #000000;
+    transition: all 300ms ease-in-out;
+}
+
+.text_name{
+    margin-top: 100px;
+}
+
+.return{
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.return:hover{
+    text-decoration: underline;
+}
+
+/*PAGINA BORDER*/
+
+.section_border{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_border{
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.article_border{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #52796f;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+
+.img_border{
+    width: 50%;
+    border-radius: 10px;
+    border-color: 2px solid #000000;
+}
+
+
+
+/*PAGINA STICKERS*/
+
+.section_sticker{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_sticker{
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.article_sticker{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_sticker{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 40%;
+}
+
+.button_sticker{
+    width: 10%;
+}
+
+.button_sticker button{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+
+
+/*PAGINA PASSWORD*/
+
+.section_password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_password{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.title_password{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.password{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9d8189;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.select_password{
+    width: 20%;
+}
+
+button{
+    margin-top: 20px;
+    width: 15%;
+}
+
+.resultado_password{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
